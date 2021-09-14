@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="xxxxx">
+    <meta name="description" content="yyyyyy">
+    <meta name="author" content="zzzz">
+    <title>IoT SAU 2021</title>
+    <link rel="shortcut icon" href="./Image/Thesquid.ink-Free-Flat-Sample-Snowman.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <h1>--Form Tag--</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>ข้อมูลส่วนตัว</legend>
+            ชื่อ <input type="text" name="emp_name" id="">
+            <br><br>
+            ปีเกิด <input type="number" name="emp_byear" id="">
+            <br><br>
+            รหัสผ่าน <input type="password" name="emp_pwd" id="">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>ข้อมูลทั่วไป</legend>
+            เพศ
+            <input type="radio" name="emp_sex" id="" value="m"> ชาย
+            <input type="radio" name="emp_sex" id="" value="f"> หญิง
+            <input type="radio" name="emp_sex" id="" checked value="o"> ทางเลือก
+            <!-- radio ต้องเลือก และเลือกได้แค่หนึ่ง -->
+            <br><br>
+            การศึกษาสูงสุด
+            <!-- select/option แบบเลือกได้แค่ 1 -->
+            <select name="emp_educate" id="">
+                <option value="ตรี">ปริญญาตรี</option>
+                <option value="โท">ปริญญาโท</option>
+                <option value="เอก">ปริญญาเอก</option>
+            </select>
+            <br><br>
+            คำนำหน้า
+            <select name="emp_title" id="" size="3">
+                <option value="1">ดช.</option>
+                <option value="2">ดญ.</option>
+                <option value="3">นาย</option>
+                <option value="4">นาง</option>
+                <option value="5">นางสาว</option>
+            </select>
+            <br><br>
+            <!-- select/option แบบเลือกได้มากกว่า 1 แต่ไม่นิยมเพราะต้องกดctrlค้างไว้เพื่อเลือกแบบมากกว่า1 -->
+            เครื่องดื่มที่ชอบ
+            <select name="emp_drink" id="" size="4" multiple>
+                <option value="น้ำส้ม">น้ำส้ม</option>
+                <option value="น้ำแดง">น้ำแดง</option>
+                <option value="กาแฟ">กาแฟ</option>
+                <option value="ชา">ชา</option>
+                <option value="โค้ก">โค้ก</option>
+                <option value="แป๊ปซี่">แป๊ปซี่</option>
+                <option value="น้ำเปล่า">น้ำเปล่า</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+
+    </form>
+
+
+</body>
+
+</html>
